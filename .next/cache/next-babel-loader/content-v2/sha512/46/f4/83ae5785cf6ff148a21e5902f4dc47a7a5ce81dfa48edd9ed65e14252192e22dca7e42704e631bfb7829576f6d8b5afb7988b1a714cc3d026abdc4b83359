@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport React from \"react\";\nimport { Margin, Center } from \"./Styled\";\n\nconst Footer = () => /*#__PURE__*/_jsx(Center, {\n  children: /*#__PURE__*/_jsx(Margin, {})\n});\n\nexport default Footer;","map":null,"metadata":{},"sourceType":"module"}

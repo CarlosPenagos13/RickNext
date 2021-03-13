@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from \"styled-components\";\nexport const Margin = styled.div`\n  margin-top: 10%;\n  margin-bottom: 0;\n`;\nexport const Center = styled.div`\n  text-align: center;\n`;","map":null,"metadata":{},"sourceType":"module"}
