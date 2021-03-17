@@ -1,4 +1,4 @@
-import { ERROR, LOADING, TRAER_CHARACTERS } from "../types/characters";
+import { ERROR, LOADING, TRAER_POR_PERSONAJE } from "../Types/characters";
 
 const INIT_STATE = {
   characters: [],
@@ -8,24 +8,24 @@ const INIT_STATE = {
 
 export default (state = INIT_STATE, action) => {
   switch (action.type) {
-    case TRAER_CHARACTERS:
+    case TRAER_POR_PERSONAJE:
       return {
         ...state,
-        characters: action.payload,
+        personaje: action.payload,
         loading: false,
         error: "",
       };
-
     case LOADING:
-      return { ...state, loading: true };
-
+      return {
+        ...state,
+        loading: true,
+      };
     case ERROR:
       return {
         ...state,
         error: action.payload,
         loading: false,
       };
-
     default:
       return state;
   }

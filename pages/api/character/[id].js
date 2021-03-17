@@ -5,11 +5,11 @@ const allCharacters = async (request, response) => {
 
   const id = request.query.id;
 
-  const character = await db.getById(id);
+  const entry = await db.getById(id);
 
   response.statusCode = 200;
   response.setHeader("Content-type", "application/json");
-  response.end(JSON.stringify({ data: character }));
+  response.end(JSON.stringify(entry));
 };
 
 export default allCharacters;

@@ -4,6 +4,8 @@
   "/_error": "pages/_error.js",
   "/": "pages/index.js",
   "/api/character": "pages/api/character.js",
-  "/character/[id]": "pages/character/[id].js",
-  "/api/character/[id]": "pages/api/character/[id].js"
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/api/character/[id]": "pages/api/character/[id].js",
+  "/about": "pages/about.js",
+  "/character/[id]": "pages/character/[id].js"
 }

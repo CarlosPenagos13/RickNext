@@ -1,6 +1,6 @@
-const data = [
-  {
-    id: 1,
+const data = {
+  0: {
+    id: "0",
     name: "Rick Sanchez",
     status: "Alive",
     species: "Human",
@@ -61,8 +61,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/1",
     created: "2017-11-04T18:48:46.250Z",
   },
-  {
-    id: 2,
+  1: {
+    id: "1",
     name: "Morty Smith",
     status: "Alive",
     species: "Human",
@@ -123,8 +123,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/2",
     created: "2017-11-04T18:50:21.651Z",
   },
-  {
-    id: 3,
+  2: {
+    id: "2",
     name: "Summer Smith",
     status: "Alive",
     species: "Human",
@@ -177,8 +177,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/3",
     created: "2017-11-04T19:09:56.428Z",
   },
-  {
-    id: 4,
+  3: {
+    id: "3",
     name: "Beth Smith",
     status: "Alive",
     species: "Human",
@@ -231,8 +231,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/4",
     created: "2017-11-04T19:22:43.665Z",
   },
-  {
-    id: 5,
+  4: {
+    id: "4",
     name: "Jerry Smith",
     status: "Alive",
     species: "Human",
@@ -281,8 +281,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/5",
     created: "2017-11-04T19:26:56.301Z",
   },
-  {
-    id: 6,
+  5: {
+    id: "5",
     name: "Abadango Cluster Princess",
     status: "Alive",
     species: "Alien",
@@ -301,8 +301,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/6",
     created: "2017-11-04T19:50:28.250Z",
   },
-  {
-    id: 7,
+  6: {
+    id: "6",
     name: "Abradolf Lincler",
     status: "unknown",
     species: "Human",
@@ -324,8 +324,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/7",
     created: "2017-11-04T19:59:20.523Z",
   },
-  {
-    id: 8,
+  7: {
+    id: "7",
     name: "Adjudicator Rick",
     status: "Dead",
     species: "Human",
@@ -344,8 +344,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/8",
     created: "2017-11-04T20:03:34.737Z",
   },
-  {
-    id: 9,
+  8: {
+    id: "8",
     name: "Agency Director",
     status: "Dead",
     species: "Human",
@@ -364,8 +364,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/9",
     created: "2017-11-04T20:06:54.976Z",
   },
-  {
-    id: 10,
+  9: {
+    id: "9",
     name: "Alan Rails",
     status: "Dead",
     species: "Human",
@@ -384,8 +384,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/10",
     created: "2017-11-04T20:19:09.017Z",
   },
-  {
-    id: 11,
+  10: {
+    id: "10",
     name: "Albert Einstein",
     status: "Dead",
     species: "Human",
@@ -404,8 +404,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/11",
     created: "2017-11-04T20:20:20.965Z",
   },
-  {
-    id: 12,
+  11: {
+    id: "11",
     name: "Alexander",
     status: "Dead",
     species: "Human",
@@ -424,8 +424,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/12",
     created: "2017-11-04T20:32:33.144Z",
   },
-  {
-    id: 13,
+  12: {
+    id: "12",
     name: "Alien Googah",
     status: "unknown",
     species: "Alien",
@@ -444,8 +444,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/13",
     created: "2017-11-04T20:33:30.779Z",
   },
-  {
-    id: 14,
+  13: {
+    id: "13",
     name: "Alien Morty",
     status: "unknown",
     species: "Alien",
@@ -464,8 +464,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/14",
     created: "2017-11-04T20:51:31.373Z",
   },
-  {
-    id: 15,
+  14: {
+    id: "14",
     name: "Alien Rick",
     status: "unknown",
     species: "Alien",
@@ -484,8 +484,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/15",
     created: "2017-11-04T20:56:13.215Z",
   },
-  {
-    id: 16,
+  15: {
+    id: "15",
     name: "Amish Cyborg",
     status: "Dead",
     species: "Alien",
@@ -504,8 +504,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/16",
     created: "2017-11-04T21:12:45.235Z",
   },
-  {
-    id: 17,
+  16: {
+    id: "16",
     name: "Annie",
     status: "Alive",
     species: "Human",
@@ -524,8 +524,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/17",
     created: "2017-11-04T22:21:24.481Z",
   },
-  {
-    id: 18,
+  17: {
+    id: "17",
     name: "Antenna Morty",
     status: "Alive",
     species: "Human",
@@ -547,8 +547,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/18",
     created: "2017-11-04T22:25:29.008Z",
   },
-  {
-    id: 19,
+  18: {
+    id: "18",
     name: "Antenna Rick",
     status: "unknown",
     species: "Human",
@@ -567,8 +567,8 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/19",
     created: "2017-11-04T22:28:13.756Z",
   },
-  {
-    id: 20,
+  19: {
+    id: "19",
     name: "Ants in my Eyes Johnson",
     status: "unknown",
     species: "Human",
@@ -587,5 +587,5 @@ const data = [
     url: "https://rickandmortyapi.com/api/character/20",
     created: "2017-11-04T22:34:53.659Z",
   },
-];
+};
 export default data;

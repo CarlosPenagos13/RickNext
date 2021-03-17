@@ -1,3 +1,3 @@
-export const TRAER_CHARACTERS = "traer_characters";
-export const LOADING = "loading_characters";
-export const ERROR = "error_characters";
+export const TRAER_POR_PERSONAJE = "personaje_traer";
+export const LOADING = "personaje_loading";
+export const ERROR = "personaje_error";

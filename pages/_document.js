@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { Body } from "./Styled";
+import { Body } from "./Styled.js";
 
 class MyDocument extends Document {
   render() {
