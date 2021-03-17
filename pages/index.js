@@ -23,7 +23,6 @@ const Home = () => {
 
   return (
     <CharContainer>
-      <h1>Hi everyone!</h1>
       {characterList.map((character, id) => (
         <Link key={id} href={`/character/${id}`} passHref>
           <Card

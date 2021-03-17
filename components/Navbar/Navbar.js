@@ -1,18 +1,18 @@
 import React from "react";
 import Link from "next/link";
-import { Nav } from "./Styled";
+import { A, Menu, Nav } from "./Styled";
 
 const Navbar = () => {
   return (
     <Nav>
-      <menu>
+      <Menu>
         <Link href="/">
-          <a>Home</a>
+          <A>Home</A>
         </Link>
         <Link href="/about">
-          <a>About</a>
+          <A>About</A>
         </Link>
-      </menu>
+      </Menu>
     </Nav>
   );
 };

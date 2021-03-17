@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import Navbar from "../../components/Navbar/Navbar";
 
 const CharacterPage = () => {
   const [character, setCharacter] = useState([]);
@@ -13,7 +12,7 @@ const CharacterPage = () => {
         .then((response) => response.json())
         .then((data) => setCharacter(data));
     }
-  }, [query]);
+  }, [query.id]);
   console.log(character);
 
   return (

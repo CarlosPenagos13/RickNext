@@ -1,14 +1,15 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { Body } from "./Styled";
 
 class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head />
-        <body>
+        <Body>
           <Main />
           <NextScript />
-        </body>
+        </Body>
       </Html>
     );
   }
