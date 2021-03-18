@@ -3,9 +3,8 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/": "pages/index.js",
-  "/api/character": "pages/api/character.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
   "/api/character/[id]": "pages/api/character/[id].js",
-  "/about": "pages/about.js",
-  "/character/[id]": "pages/character/[id].js"
+  "/character/[id]": "pages/character/[id].js",
+  "/api/character": "pages/api/character.js",
+  "/about": "pages/about.js"
 }

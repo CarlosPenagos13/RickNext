@@ -12,6 +12,12 @@ export const CharContainer = styled.div`
     text-decoration: none;
     text-align: center;
   }
+  @media (max-width: 1249px) {
+    grid-template-columns: repeat(3, minmax(100px, 300px));
+  }
+  @media (max-width: 949px) {
+    grid-template-columns: repeat(2, minmax(100px, 300px));
+  }
 `;
 
 export const Abo = styled.div`
